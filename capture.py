@@ -6,8 +6,6 @@ while True:
     a=a+1
     check, frame = video.read()
 
-    time.sleep(3)
-
     cv2.imshow("Capturing",frame)
     key = cv2.waitKey(1)
 
